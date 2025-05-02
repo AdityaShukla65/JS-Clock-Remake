@@ -22,7 +22,7 @@ btn.addEventListener("click",function(){
         intervalStart=true
         new Audio("clock-sound.mp3").play()
         setInterval(()=>{
-            new Audio("/js-clock-remake/clock-sound.mp3").play()
+            new Audio("clock-sound.mp3").play()
         },8000)
     }
 })
