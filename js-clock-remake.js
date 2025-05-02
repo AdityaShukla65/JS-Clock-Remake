@@ -20,7 +20,7 @@ btn.addEventListener("click",function(){
     let intervalStart=false
     if (intervalStart!=true){
         intervalStart=true
-        new Audio("/js-clock-remake/clock-sound.mp3").play()
+        new Audio("clock-sound.mp3").play()
         setInterval(()=>{
             new Audio("/js-clock-remake/clock-sound.mp3").play()
         },8000)
