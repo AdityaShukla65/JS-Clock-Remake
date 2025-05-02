@@ -18,7 +18,7 @@ function mechanism(){
 
 let intervalStart=false
 btn.addEventListener("click",function(){
-    if (intervalStart!=true){
+    if (!intervalStart){
         intervalStart=true
         new Audio("clock-sound.mp3").play()
         setInterval(()=>{
